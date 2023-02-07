@@ -44,8 +44,17 @@ btn.addEventListener("click", function () {
         f.style.backgroundColor = "blue";
     }
 
+    // select all the <li> with querySelectorAll
+    document.querySelectorAll("li");
+
     // getElementById allows us to retrieve an element by its id
     let subheading = document.getElementById("subtitle");
     subheading.style.color = "blue";
+
+    // all the other ways of selecting
+    // document.getElementById -- select by an id
+    // document.getElementsByClassName -- select by a class and will return an array of elements
+    // document.getElementsByTagName -- select by tag name
+
 
 });

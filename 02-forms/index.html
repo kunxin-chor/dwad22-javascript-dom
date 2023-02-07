@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label>Name:</label>
+        <input type="text" id="name" />
+    </div>
+    <div>
+        <label>Email:</label>   
+        <input type="text" id="email"/>
+    </div>
+    <div>
+        <label>How satisfied are you with our services</label>
+        <input name="services" class="services" value="good" type="radio"/><label>Good</label>
+        <input name="services" class="services" value="average" type="radio"/><label>Average</label>
+        <input name="services" class="services" value="bad" type="radio"/><label>Bad</label>
+    </div>
+    <div>
+        <label>How did you hear our services</label>
+        <input name="hear-about" class="hear-about" type="checkbox" value="advert"/><label>Advertisement</label>
+        <input name="hear-about" class="hear-about" type="checkbox" value="social-media"/><label>Social media</label>
+        <input name="hear-about" class="hear-about" type="checkbox" value="word-of-mouth"/><label>Word of mouth</label>
+        <input name="hear-about" class="hear-about" type="checkbox" value="others"/><label>Others</label>
+    </div>
+    <div>
+        <label>Which are country are you from?</label>
+        <select id="country">
+            <option value="sg">Singapore</option>
+            <option value="my">Malaysia</option>
+            <option value="th">Thailand</option>
+        </select>
+    </div>
+    <div>
+        <label>Comments</label>
+        <textarea id="comments"></textarea>
+    </div>
+    <button id="btnSubmit">Submit</button>
+    <script src="script.js"></script>
+</body>
+</html>
