@@ -1,0 +1,6 @@
+/* select any element with the class `units`
+which has been checked by the users */
+.units:checked {
+    border: none;
+    outline: 2px solid deeppink;
+}

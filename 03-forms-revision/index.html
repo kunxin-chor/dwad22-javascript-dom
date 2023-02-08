@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Don't use the <form> tag we don't intend to submit the form
+        a web server -->
+    <div>
+        <div>
+            <label>Weight:</label>
+            <input type="number" id="weight" />
+        </div>
+        <div>
+            <label>Height</label>
+            <input type="number" id="height" />
+        </div>
+        <div>
+            <label>Units of Measurement</label>
+            <input type="radio" value="si" name="units" class="units"/><label>SI Units</label>
+            <input type="radio" value="imperial" name="units" class="units"/><label>Imperial Units</label>
+
+        </div>
+        <button id="btnCalculate">Calculate BMI</button>
+    </div>
+    <div id="resultsDiv" style="display:none">Your BMI is <span id="results"></span></div>
+    <script src="script.js"></script>
+</body>
+</html>
